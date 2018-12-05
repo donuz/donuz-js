@@ -2,17 +2,21 @@
 Biblioteca para JS
 
 ## Instalação
-
-Faça o download da biblioteca:
+### Instalação via github
+    Faça o download da biblioteca:
 
 ~~~
 git clone https://github.com/donuz/donuz-js.git
 ~~~
 
-Após o download, via terminal, navegue até a pasta donuz-js e rode o seguinte comando: 
+    Após o download, via terminal, navegue até a pasta donuz-js e rode o seguinte comando: 
 
 ```bash
 $ npm install
+```
+### Instalação via npm 
+```bash
+$ npm install donuz-js
 ```
 
 
