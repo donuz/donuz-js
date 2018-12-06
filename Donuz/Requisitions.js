@@ -19,7 +19,7 @@ export async function post(url, header, parameter) {
     let obj = await fetch(base_url + url, {
             method: 'POST',
             headers: header,
-            body: parameter,
+            body: JSON.stringify(parameter),
             json: true
         }).then((data) => (data.json())).catch((data) => console.log(data));
     return obj;
