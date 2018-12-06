@@ -31,11 +31,9 @@ Abra o arquivo config.json e adicione o seu Token e o ID do seu estabelecimento:
 
 
 ## Exemplo de Uso
-
-Inclua a biblioteca em seu arquivo JS:
-
+Inclua a biblioteca em seu arquivo JS :
 ```js
-import { Donuz } from './node_modules/donuz-js/Donuz'
+import { Donuz } from 'donuz-js/Donuz'
 ```
 
 Após importar a biblioteca já estará disponível para ser utilizada, como no exemplo abaixo:

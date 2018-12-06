@@ -1,6 +1,6 @@
 {
   "name": "donuz-js",
-  "version": "1.0.4",
+  "version": "1.0.7",
   "description": "a simple library for rewards shop write in js",
   "main": "Donuz.js",
   "scripts": {
