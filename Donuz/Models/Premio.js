@@ -2,7 +2,8 @@ import {
     get,
     post
 } from '../Requisitions';
-var config = require('../../config.json');
+var path= require('path');
+var config = require(path.resolve('donuz-config/config.json'))
 
 export var prizes= {
     getRewards:function(order = null, limit = null)

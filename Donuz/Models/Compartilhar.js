@@ -1,7 +1,8 @@
 import {
     post
 } from '../Requisitions';
-var config = require('../../config.json');
+var path= require('path');
+var config = require(path.resolve('donuz-config/config.json'))
 
 export var share = {
     getHash: function (tokenCliente) {

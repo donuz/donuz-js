@@ -1,5 +1,6 @@
 const base_url = 'https://www.donuz.co/api/v1/';
-var config = require('../config.json')
+var path= require('path');
+var config = require(path.resolve('donuz-config/config.json'))
 const token = config.token;
 
 export async function get(url, header = null) {
@@ -8,6 +9,7 @@ export async function get(url, header = null) {
             'token': token
         }
     }
+    header.token = config.token
     let obj = await fetch(base_url + url, {
             headers: header
         })
