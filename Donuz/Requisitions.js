@@ -1,4 +1,3 @@
-const fetch= require('node-fetch');
 const base_url = 'https://www.donuz.co/api/v1/';
 var config = require('../config.json')
 const token = config.token;

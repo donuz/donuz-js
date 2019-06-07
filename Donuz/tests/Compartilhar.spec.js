@@ -1,4 +1,5 @@
 "use strict";
+const fetch= require('node-fetch');
 import chai, {
     expect
 } from 'chai';
