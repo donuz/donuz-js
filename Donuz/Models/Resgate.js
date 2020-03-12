@@ -7,7 +7,7 @@ var config = require(path.resolve('donuz-config/config.json'))
 
 export var rescues = {
     redeemRewards: function (tokenCliente, data) {
-        data.acao = inserir;
+        data.acao = 'inserir';
         data.estabelecimento = config.estabelecimento_id;
 
         return post('resgate', {
